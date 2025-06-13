@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'PayPal Demo payal',
+      title: 'PayPal Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
       home: PaymentScreen(),
     );
